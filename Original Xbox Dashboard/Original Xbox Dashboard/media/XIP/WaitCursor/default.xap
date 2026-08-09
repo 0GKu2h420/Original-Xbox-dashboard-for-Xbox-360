@@ -1,0 +1,176 @@
+Transform
+{
+    scale 0.0055 0.0055 0.0055
+    translation 0.4 -1.4 0
+    children
+    [
+        Spinner
+        {
+            rpm 25
+            axis 0 0 -1
+            children
+            [
+                DEF Anim_wait Transform
+                {
+                    children
+                    [
+                        DEF Tube02 Transform
+                        {
+                            children
+                            [
+                                Shape
+                                {
+                                    appearance Appearance
+                                    {
+                                        material MaxMaterial
+                                        {
+                                            name "solid green 1"
+                                        }
+                                    }
+                                    geometry DEF Tube02-FACES Mesh { url "Tube02-FACES.xm" }
+                                }
+                            ]
+                            rotation -0.862900 -0.357400 -0.357400 -1.718000
+                            translation -5.472000 1.821000 -9.541000
+                        }
+                        DEF Tube03 Transform
+                        {
+                            children
+                            [
+                                Shape
+                                {
+                                    appearance Appearance
+                                    {
+                                        material MaxMaterial
+                                        {
+                                            name "solid green2"
+                                        }
+                                    }
+                                    geometry DEF Tube03-FACES Mesh { url "Tube03-FACES.xm" }
+                                }
+                            ]
+                            rotation 0.577400 0.577400 0.577400 -4.189000
+                            translation -5.157000 -2.582000 -9.541000
+                        }
+                        DEF Tube04 Transform
+                        {
+                            children
+                            [
+                                Shape
+                                {
+                                    appearance Appearance
+                                    {
+                                        material MaxMaterial
+                                        {
+                                            name "solid green 3"
+                                        }
+                                    }
+                                    geometry DEF Tube04-FACES Mesh { url "Tube04-FACES.xm" }
+                                }
+                            ]
+                            rotation 0.281100 0.678600 0.678600 -3.690000
+                            translation -1.821000 -5.472000 -9.541000
+                        }
+                        DEF Tube05 Transform
+                        {
+                            children
+                            [
+                                Shape
+                                {
+                                    appearance Appearance
+                                    {
+                                        material MaxMaterial
+                                        {
+                                            name "solid green 4"
+                                        }
+                                    }
+                                    geometry DEF Tube05-FACES Mesh { url "Tube05-FACES.xm" }
+                                }
+                            ]
+                            rotation 0.000000 0.707100 0.707100 -3.142000
+                            translation 2.582000 -5.157000 -9.541000
+                        }
+                        DEF Tube06 Transform
+                        {
+                            children
+                            [
+                                Shape
+                                {
+                                    appearance Appearance
+                                    {
+                                        material MaxMaterial
+                                        {
+                                            name "solid green 1"
+                                        }
+                                    }
+                                    geometry DEF Tube06-FACES Mesh { url "Tube06-FACES.xm" }
+                                }
+                            ]
+                            rotation -0.281100 0.678600 0.678600 -2.594000
+                            translation 5.472000 -1.821000 -9.541000
+                        }
+                        DEF Tube07 Transform
+                        {
+                            children
+                            [
+                                Shape
+                                {
+                                    appearance Appearance
+                                    {
+                                        material MaxMaterial
+                                        {
+                                            name "solid green2"
+                                        }
+                                    }
+                                    geometry DEF Tube07-FACES Mesh { url "Tube07-FACES.xm" }
+                                }
+                            ]
+                            rotation -0.577400 0.577400 0.577400 -2.094000
+                            translation 5.157000 2.582000 -9.541000
+                        }
+                        DEF Tube08 Transform
+                        {
+                            children
+                            [
+                                Shape
+                                {
+                                    appearance Appearance
+                                    {
+                                        material MaxMaterial
+                                        {
+                                            name "solid green 3"
+                                        }
+                                    }
+                                    geometry DEF Tube08-FACES Mesh { url "Tube08-FACES.xm" }
+                                }
+                            ]
+                            rotation -0.862900 0.357400 0.357400 -1.718000
+                            translation 1.821000 5.472000 -9.541000
+                        }
+                        DEF Tube01 Transform
+                        {
+                            children
+                            [
+                                Shape
+                                {
+                                    appearance Appearance
+                                    {
+                                        material MaxMaterial
+                                        {
+                                            name "solid green 4"
+                                        }
+                                    }
+                                    geometry DEF Tube01-FACES Mesh { url "Tube01-FACES.xm" }
+                                }
+                            ]
+                            rotation -1.000000 0.000000 0.000000 -1.571000
+                            translation -2.582000 5.157000 -9.541000
+                        }
+                    ]
+                    scale 1.000000 1.000000 0.595200
+                    translation -0.011420 -0.082420 0.023120
+                }
+            ]
+        }
+    ]
+}

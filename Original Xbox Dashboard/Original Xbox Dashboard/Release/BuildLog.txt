@@ -1,0 +1,30 @@
+﻿Build started 8/9/2026 6:14:11 AM.
+     1>Project "C:\Users\Ku2h\OneDrive\documents\visual studio 2010\Projects\Original Xbox Dashboard\Original Xbox Dashboard\Original Xbox Dashboard.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Release\dash.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Release\dash.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Xbox 360 SDK\bin\win32\CL.exe /c /Zi /nologo /W3 /WX- /Ox /Os /D NDEBUG /D _XBOX /D _XBOX /D _MBCS /GF /Gm- /MT /GS- /Gy /fp:fast /fp:except- /Zc:wchar_t /Zc:forScope /GR- /openmp- /Yc"StdAfx.h" /Fp"C:\Users\Ku2h\OneDrive\documents\visual studio 2010\Projects\Original Xbox Dashboard\Original Xbox Dashboard\Release\dash.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /TP stdafx.cpp /FI"C:\Program Files (x86)\Microsoft Xbox 360 SDK\\include\xbox\xbox_intellisense_platform.h"
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Xbox 360 SDK\bin\win32\CL.exe /c /Zi /nologo /W3 /WX- /Ox /Os /D NDEBUG /D _XBOX /D _XBOX /D _MBCS /GF /Gm- /MT /GS- /Gy /fp:fast /fp:except- /Zc:wchar_t /Zc:forScope /GR- /openmp- /Yu"StdAfx.h" /Fp"C:\Users\Ku2h\OneDrive\documents\visual studio 2010\Projects\Original Xbox Dashboard\Original Xbox Dashboard\Release\dash.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /TP Objloader.cpp "Original Xbox Dashboard.cpp" /FI"C:\Program Files (x86)\Microsoft Xbox 360 SDK\\include\xbox\xbox_intellisense_platform.h"
+         Objloader.cpp
+         Original Xbox Dashboard.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Xbox 360 SDK\bin\win32\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Ku2h\OneDrive\documents\visual studio 2010\Projects\Original Xbox Dashboard\Original Xbox Dashboard\Release\dash.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\Program Files (x86)\Microsoft Xbox 360 SDK\lib\xbox" xapilib.lib d3d9.lib d3dx9.lib xgraphics.lib xboxkrnl.lib xnet.lib xaudio2.lib xact3.lib x3daudio.lib xmcore.lib vcomp.lib /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Ku2h\OneDrive\documents\visual studio 2010\Projects\Original Xbox Dashboard\Original Xbox Dashboard\Release\dash.pdb" /STACK:"262144","262144" /OPT:REF /OPT:ICF /TLBID:1 /RELEASE /IMPLIB:"C:\Users\Ku2h\OneDrive\documents\visual studio 2010\Projects\Original Xbox Dashboard\Original Xbox Dashboard\Release\dash.lib" Release\Objloader.obj
+         "Release\Original Xbox Dashboard.obj"
+         Release\stdafx.obj /XEX:NO
+       ImageXex:
+         C:\Program Files (x86)\Microsoft Xbox 360 SDK\bin\win32\imagexex.exe /out:"C:\Users\Ku2h\OneDrive\documents\visual studio 2010\Projects\Original Xbox Dashboard\Original Xbox Dashboard\Release\dash.xex" "C:\Users\Ku2h\OneDrive\documents\visual studio 2010\Projects\Original Xbox Dashboard\Original Xbox Dashboard\Release\dash.exe" 
+         Microsoft(R) Xbox 360 Image File Builder Version 2.0.21256.0
+         (c)2012 Microsoft Corporation. All rights reserved.
+         
+       FinalizeBuildStatus:
+         Deleting file "Release\dash.unsuccessfulbuild".
+         Touching "Release\dash.lastbuildstate".
+     1>Done Building Project "C:\Users\Ku2h\OneDrive\documents\visual studio 2010\Projects\Original Xbox Dashboard\Original Xbox Dashboard\Original Xbox Dashboard.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:12.03

@@ -1,0 +1,21 @@
+﻿Build started 8/9/2026 6:13:39 AM.
+     1>Project "C:\Users\Ku2h\OneDrive\documents\visual studio 2010\Projects\Original Xbox Dashboard\Original Xbox Dashboard\Original Xbox Dashboard.vcxproj" on node 2 (rebuild target(s)).
+     1>InitializeBuildStatus:
+         Creating "Xbox 360\dash.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Xbox 360 SDK\bin\win32\CL.exe /c /Zi /nologo /W1 /WX- /Ox /Os /D _XBOX /D _MBCS /GF- /Gm- /EHsc /MD /GS /Gy- /fp:fast /fp:except- /Zc:wchar_t /Zc:forScope /GR- /openmp- /Fo"Xbox 360\\" /Fd"Xbox 360\vc100.pdb" /TP Objloader.cpp "Original Xbox Dashboard.cpp" stdafx.cpp /FI"C:\Program Files (x86)\Microsoft Xbox 360 SDK\\include\xbox\xbox_intellisense_platform.h"
+     1>cl : Command line warning D9035: option 'MD' has been deprecated and will be removed in a future release
+         Objloader.cpp
+         Original Xbox Dashboard.cpp
+         stdafx.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Xbox 360 SDK\bin\win32\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Ku2h\OneDrive\documents\visual studio 2010\Projects\Original Xbox Dashboard\Original Xbox Dashboard\Xbox 360\dash.exe" /NOLOGO xapilib.lib d3d9.lib d3dx9.lib xgraphics.lib xboxkrnl.lib xnet.lib xaudio2.lib xact3.lib x3daudio.lib xmcore.lib vcomp.lib /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"C:\Users\Ku2h\OneDrive\documents\visual studio 2010\Projects\Original Xbox Dashboard\Original Xbox Dashboard\Xbox 360\dash.pdb" /STACK:"262144","262144" /TLBID:1 /IMPLIB:"C:\Users\Ku2h\OneDrive\documents\visual studio 2010\Projects\Original Xbox Dashboard\Original Xbox Dashboard\Xbox 360\dash.lib" "Xbox 360\Objloader.obj"
+         "Xbox 360\Original Xbox Dashboard.obj"
+         "Xbox 360\stdafx.obj" /XEX:NO
+     1>LINK : fatal error LNK1104: cannot open file 'XAPI.lib'
+     1>Done Building Project "C:\Users\Ku2h\OneDrive\documents\visual studio 2010\Projects\Original Xbox Dashboard\Original Xbox Dashboard\Original Xbox Dashboard.vcxproj" (rebuild target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:07.34

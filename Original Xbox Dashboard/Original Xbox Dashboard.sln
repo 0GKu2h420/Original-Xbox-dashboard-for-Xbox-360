@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Original Xbox Dashboard", "Original Xbox Dashboard\Original Xbox Dashboard.vcxproj", "{43BF7E62-AAB0-4E40-A941-7545080FBF94}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		CodeAnalysis|Win32 = CodeAnalysis|Win32
+		CodeAnalysis|Xbox 360 = CodeAnalysis|Xbox 360
+		Debug|Win32 = Debug|Win32
+		Debug|Xbox 360 = Debug|Xbox 360
+		Profile_FastCap|Win32 = Profile_FastCap|Win32
+		Profile_FastCap|Xbox 360 = Profile_FastCap|Xbox 360
+		Profile|Win32 = Profile|Win32
+		Profile|Xbox 360 = Profile|Xbox 360
+		Release_LTCG|Win32 = Release_LTCG|Win32
+		Release_LTCG|Xbox 360 = Release_LTCG|Xbox 360
+		Release|Win32 = Release|Win32
+		Release|Xbox 360 = Release|Xbox 360
+		win32|Win32 = win32|Win32
+		win32|Xbox 360 = win32|Xbox 360
+		Xbox 360|Win32 = Xbox 360|Win32
+		Xbox 360|Xbox 360 = Xbox 360|Xbox 360
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{43BF7E62-AAB0-4E40-A941-7545080FBF94}.CodeAnalysis|Win32.ActiveCfg = CodeAnalysis|Win32
+		{43BF7E62-AAB0-4E40-A941-7545080FBF94}.CodeAnalysis|Win32.Build.0 = CodeAnalysis|Win32
+		{43BF7E62-AAB0-4E40-A941-7545080FBF94}.CodeAnalysis|Xbox 360.ActiveCfg = CodeAnalysis|Xbox 360
+		{43BF7E62-AAB0-4E40-A941-7545080FBF94}.CodeAnalysis|Xbox 360.Build.0 = CodeAnalysis|Xbox 360
+		{43BF7E62-AAB0-4E40-A941-7545080FBF94}.Debug|Win32.ActiveCfg = Debug|Win32
+		{43BF7E62-AAB0-4E40-A941-7545080FBF94}.Debug|Win32.Build.0 = Debug|Win32
+		{43BF7E62-AAB0-4E40-A941-7545080FBF94}.Debug|Xbox 360.ActiveCfg = Debug|Xbox 360
+		{43BF7E62-AAB0-4E40-A941-7545080FBF94}.Debug|Xbox 360.Build.0 = Debug|Xbox 360
+		{43BF7E62-AAB0-4E40-A941-7545080FBF94}.Profile_FastCap|Win32.ActiveCfg = Profile_FastCap|Win32
+		{43BF7E62-AAB0-4E40-A941-7545080FBF94}.Profile_FastCap|Win32.Build.0 = Profile_FastCap|Win32
+		{43BF7E62-AAB0-4E40-A941-7545080FBF94}.Profile_FastCap|Xbox 360.ActiveCfg = Profile_FastCap|Xbox 360
+		{43BF7E62-AAB0-4E40-A941-7545080FBF94}.Profile_FastCap|Xbox 360.Build.0 = Profile_FastCap|Xbox 360
+		{43BF7E62-AAB0-4E40-A941-7545080FBF94}.Profile|Win32.ActiveCfg = Profile|Win32
+		{43BF7E62-AAB0-4E40-A941-7545080FBF94}.Profile|Win32.Build.0 = Profile|Win32
+		{43BF7E62-AAB0-4E40-A941-7545080FBF94}.Profile|Xbox 360.ActiveCfg = Profile|Xbox 360
+		{43BF7E62-AAB0-4E40-A941-7545080FBF94}.Profile|Xbox 360.Build.0 = Profile|Xbox 360
+		{43BF7E62-AAB0-4E40-A941-7545080FBF94}.Release_LTCG|Win32.ActiveCfg = Release_LTCG|Win32
+		{43BF7E62-AAB0-4E40-A941-7545080FBF94}.Release_LTCG|Win32.Build.0 = Release_LTCG|Win32
+		{43BF7E62-AAB0-4E40-A941-7545080FBF94}.Release_LTCG|Xbox 360.ActiveCfg = Release_LTCG|Xbox 360
+		{43BF7E62-AAB0-4E40-A941-7545080FBF94}.Release_LTCG|Xbox 360.Build.0 = Release_LTCG|Xbox 360
+		{43BF7E62-AAB0-4E40-A941-7545080FBF94}.Release|Win32.ActiveCfg = Release|Win32
+		{43BF7E62-AAB0-4E40-A941-7545080FBF94}.Release|Win32.Build.0 = Release|Win32
+		{43BF7E62-AAB0-4E40-A941-7545080FBF94}.Release|Xbox 360.ActiveCfg = Release|Xbox 360
+		{43BF7E62-AAB0-4E40-A941-7545080FBF94}.Release|Xbox 360.Build.0 = Release|Xbox 360
+		{43BF7E62-AAB0-4E40-A941-7545080FBF94}.win32|Win32.ActiveCfg = win32|Win32
+		{43BF7E62-AAB0-4E40-A941-7545080FBF94}.win32|Win32.Build.0 = win32|Win32
+		{43BF7E62-AAB0-4E40-A941-7545080FBF94}.win32|Xbox 360.ActiveCfg = win32|Xbox 360
+		{43BF7E62-AAB0-4E40-A941-7545080FBF94}.win32|Xbox 360.Build.0 = win32|Xbox 360
+		{43BF7E62-AAB0-4E40-A941-7545080FBF94}.win32|Xbox 360.Deploy.0 = win32|Xbox 360
+		{43BF7E62-AAB0-4E40-A941-7545080FBF94}.Xbox 360|Win32.ActiveCfg = Xbox 360|Win32
+		{43BF7E62-AAB0-4E40-A941-7545080FBF94}.Xbox 360|Win32.Build.0 = Xbox 360|Win32
+		{43BF7E62-AAB0-4E40-A941-7545080FBF94}.Xbox 360|Xbox 360.ActiveCfg = Xbox 360|Xbox 360
+		{43BF7E62-AAB0-4E40-A941-7545080FBF94}.Xbox 360|Xbox 360.Build.0 = Xbox 360|Xbox 360
+		{43BF7E62-AAB0-4E40-A941-7545080FBF94}.Xbox 360|Xbox 360.Deploy.0 = Xbox 360|Xbox 360
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
