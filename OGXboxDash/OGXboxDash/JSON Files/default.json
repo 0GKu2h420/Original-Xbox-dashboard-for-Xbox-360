@@ -1,0 +1,209 @@
+{
+    "Transform": {
+        "scale": [0.0055, 0.0055, 0.0055],
+        "translation": [0.4, -1.4, 0.0],
+        "children": [
+            {
+                "Spinner": {
+                    "rpm": 25,
+                    "axis": [0.0, 0.0, -1.0],
+                    "children": [
+                        {
+                            "DEF": "Anim_wait",
+                            "Transform": {
+                                "scale": [1.0, 1.0, 0.595200],
+                                "translation": [-0.011420, -0.082420, 0.023120],
+                                "children": [
+                                    {
+                                        "DEF": "Tube02",
+                                        "Transform": {
+                                            "rotation": [-0.862900, -0.357400, -0.357400, -1.718000],
+                                            "translation": [-5.472000, 1.821000, -9.541000],
+                                            "children": [
+                                                {
+                                                    "Shape": {
+                                                        "appearance": {
+                                                            "material": {
+                                                                "name": "solid green 1"
+                                                            }
+                                                        },
+                                                        "geometry": {
+                                                            "DEF": "Tube02-FACES",
+                                                            "type": "Mesh",
+                                                            "url": "Tube02-FACES.xm"
+                                                        }
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "DEF": "Tube03",
+                                        "Transform": {
+                                            "rotation": [0.577400, 0.577400, 0.577400, -4.189000],
+                                            "translation": [-5.157000, -2.582000, -9.541000],
+                                            "children": [
+                                                {
+                                                    "Shape": {
+                                                        "appearance": {
+                                                            "material": {
+                                                                "name": "solid green2"
+                                                            }
+                                                        },
+                                                        "geometry": {
+                                                            "DEF": "Tube03-FACES",
+                                                            "type": "Mesh",
+                                                            "url": "Tube03-FACES.xm"
+                                                        }
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "DEF": "Tube04",
+                                        "Transform": {
+                                            "rotation": [0.281100, 0.678600, 0.678600, -3.690000],
+                                            "translation": [-1.821000, -5.472000, -9.541000],
+                                            "children": [
+                                                {
+                                                    "Shape": {
+                                                        "appearance": {
+                                                            "material": {
+                                                                "name": "solid green 3"
+                                                            }
+                                                        },
+                                                        "geometry": {
+                                                            "DEF": "Tube04-FACES",
+                                                            "type": "Mesh",
+                                                            "url": "Tube04-FACES.xm"
+                                                        }
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "DEF": "Tube05",
+                                        "Transform": {
+                                            "rotation": [0.000000, 0.707100, 0.707100, -3.142000],
+                                            "translation": [2.582000, -5.157000, -9.541000],
+                                            "children": [
+                                                {
+                                                    "Shape": {
+                                                        "appearance": {
+                                                            "material": {
+                                                                "name": "solid green 4"
+                                                            }
+                                                        },
+                                                        "geometry": {
+                                                            "DEF": "Tube05-FACES",
+                                                            "type": "Mesh",
+                                                            "url": "Tube05-FACES.xm"
+                                                        }
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "DEF": "Tube06",
+                                        "Transform": {
+                                            "rotation": [-0.281100, 0.678600, 0.678600, -2.594000],
+                                            "translation": [5.472000, -1.821000, -9.541000],
+                                            "children": [
+                                                {
+                                                    "Shape": {
+                                                        "appearance": {
+                                                            "material": {
+                                                                "name": "solid green 1"
+                                                            }
+                                                        },
+                                                        "geometry": {
+                                                            "DEF": "Tube06-FACES",
+                                                            "type": "Mesh",
+                                                            "url": "Tube06-FACES.xm"
+                                                        }
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "DEF": "Tube07",
+                                        "Transform": {
+                                            "rotation": [-0.577400, 0.577400, 0.577400, -2.094000],
+                                            "translation": [5.157000, 2.582000, -9.541000],
+                                            "children": [
+                                                {
+                                                    "Shape": {
+                                                        "appearance": {
+                                                            "material": {
+                                                                "name": "solid green2"
+                                                            }
+                                                        },
+                                                        "geometry": {
+                                                            "DEF": "Tube07-FACES",
+                                                            "type": "Mesh",
+                                                            "url": "Tube07-FACES.xm"
+                                                        }
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "DEF": "Tube08",
+                                        "Transform": {
+                                            "rotation": [-0.862900, 0.357400, 0.357400, -1.718000],
+                                            "translation": [1.821000, 5.472000, -9.541000],
+                                            "children": [
+                                                {
+                                                    "Shape": {
+                                                        "appearance": {
+                                                            "material": {
+                                                                "name": "solid green 3"
+                                                            }
+                                                        },
+                                                        "geometry": {
+                                                            "DEF": "Tube08-FACES",
+                                                            "type": "Mesh",
+                                                            "url": "Tube08-FACES.xm"
+                                                        }
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "DEF": "Tube01",
+                                        "Transform": {
+                                            "rotation": [-1.000000, 0.000000, 0.000000, -1.571000],
+                                            "translation": [-2.582000, 5.157000, -9.541000],
+                                            "children": [
+                                                {
+                                                    "Shape": {
+                                                        "appearance": {
+                                                            "material": {
+                                                                "name": "solid green 4"
+                                                            }
+                                                        },
+                                                        "geometry": {
+                                                            "DEF": "Tube01-FACES",
+                                                            "type": "Mesh",
+                                                            "url": "Tube01-FACES.xm"
+                                                        }
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}
